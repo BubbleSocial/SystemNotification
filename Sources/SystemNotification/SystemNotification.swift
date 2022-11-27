@@ -130,8 +130,8 @@ private extension SystemNotification {
     var verticalOffset: CGFloat {
         if isActive { return 0 }
         switch configuration.edge {
-        case .top: return -250
-        case .bottom: return 250
+        case .top: return -350
+        case .bottom: return 350
         }
     }
     
